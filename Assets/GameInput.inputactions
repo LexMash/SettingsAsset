@@ -1,0 +1,54 @@
+{
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "Menu",
+            "id": "429cab29-e04a-4d36-b202-a39a438ca7bd",
+            "actions": [
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "c497d307-9241-4ec9-b49e-44169836b55a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "05890cae-2596-4e1b-af80-a6d6737d22df",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "99197676-fb7b-42f5-a808-b9e077edbd45",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d25bfc9-9563-4139-8d63-5e367e11ade3",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
